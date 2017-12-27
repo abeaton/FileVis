@@ -1,0 +1,5 @@
+/**
+ * TEST B
+ *
+ * The second file to be visited
+ */

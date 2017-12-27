@@ -1,0 +1,22 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es6",
+		"module": "commonjs",
+		"jsx": "react",
+        "outDir": "../dist",
+        "sourceMap": true,
+		"strictNullChecks": true,
+		"lib": ["dom", "es2015.promise", "es5", "es2017"],
+		"noImplicitAny": false // Make true once react-vis has typings 
+    },
+    "files": [
+        ".././node_modules/@types/node/index.d.ts"
+    ],
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "./**/*.test.ts"
+    ]
+}

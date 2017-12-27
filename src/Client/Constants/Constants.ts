@@ -1,0 +1,1 @@
+export const AccentColor = "#DD9BB0";
